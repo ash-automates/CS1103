@@ -49,4 +49,8 @@ public class Customer {
             System.out.printf("Total: $%.2f%n", calculateTotal());
         }
     }
+    
+    public List<Product> getCart() {
+        return cart;
+    }
 }
